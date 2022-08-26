@@ -72,8 +72,8 @@
                         <div class="coming-soon-content-wrap position-relative z-2">
                             <a href="/" class="mb-5 d-block"><h4 class="text-white mb-3">Go Back</h4></a>
 
-                            <h5 class="text-white">We are Coming Soon...</h5>
-                            <h1 class="text-white">We are Working Our New Website, Please Stay With us!</h1>
+                            <h5 class="text-white">Internal Projects To Go Live Soon...</h5>
+                            <h1 class="text-white">Get notified when an App is lunched!</h1>
                             <div class="action-btns">
                                 <a href="#notify-form" class="btn btn-primary mt-5 popup-with-form">Notify Me!</a>
                             </div>
@@ -93,8 +93,8 @@
                 <div id="notify-form" class="mfp-hide white-popup-block  rounded-custom bg-white p-5">
                     <div class="subscribe-info-wrap text-center position-relative z-2">
                         <div class="section-heading">
-                            <h3>Subscribe for Latest News and Updated!</h3>
-                            <p>We can help you to create your dream website for better business revenue.</p>
+                            <h3>Subscribe for our project updates!</h3>
+                            <p>We will get you notified whenever an internal App is lunched</p>
                         </div>
                         <div class="form-block-banner mw-60 m-auto">
                             <form id="email-form2" name="email-form" class="subscribe-form d-flex" action="/notify" method="post">
