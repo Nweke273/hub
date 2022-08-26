@@ -34,7 +34,7 @@
     <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
 
     <!--title-->
-    <title>Quiety - Software & IT Solutions HTML Template</title>
+    <title>Smart Hub Software Solution Company</title>
 
     <!--google fonts-->
     <!--<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">-->
@@ -46,7 +46,8 @@
     <!--custom css start-->
     <link rel="stylesheet" href="assets/css/custom.css">
     <!--custom css end-->
-
+{{--Sweet Alert Cdn --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -82,16 +83,16 @@
                     <div class="collapse navbar-collapse justify-content-center">
                         <ul class="nav col-12 col-md-auto justify-content-center main-menu">
                             <li><a href="/" class="nav-link">Home</a></li>
-                            <li><a href="#services" class="nav-link">Services</a></li>
-                            <li><a href="#trainings" class="nav-link">Trainings</a></li>
-                            <li><a href="#whats-new" class="nav-link">What's New</a></li>
-                            <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                            <li><a href="/#services" class="nav-link">Services</a></li>
+                            <li><a href="/#trainings" class="nav-link">Trainings</a></li>
+                            <li><a href="/#whats-new" class="nav-link">What's New</a></li>
+                            <li><a href="/#contact" class="nav-link">Contact Us</a></li>
                         </ul>
                     </div>
 
                     <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-                        <a href="login.html" class="btn btn-link text-decoration-none me-2">Sign In</a>
-                        <a href="" class="btn btn-primary">Get Started</a>
+                        <a href="/login" class="btn btn-link text-decoration-none me-2">Sign In</a>
+                        <a href="#get-started" class="btn btn-primary">Get Started</a>
                     </div>
                 </div>
             </nav>
@@ -386,13 +387,14 @@
                         <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
                             <div class="footer-single-col">
                                 <div class="footer-single-col mb-4">
-                                    <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo-white">
-                                    <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color">
+                                    <h4>SMART HUB</h4>
+                                    {{-- <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-white">
+                                    <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color"> --}}
                                 </div>
                                 <p>Our latest news, articles, and resources, we will sent to
                                     your inbox weekly.</p>
 
-                                <form class="newsletter-form position-relative d-block d-lg-flex d-md-flex" action="/get-started" method="post">
+                                <form class="newsletter-form position-relative d-block d-lg-flex d-md-flex" action="/news-letter" method="post">
                                     @csrf
                                     <input type="text" class="input-newsletter form-control me-2" placeholder="Enter your email" name="email" required="" autocomplete="off" value="">
                                     <input type="submit" value="Subscribe" data-wait="Please wait..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
@@ -426,30 +428,20 @@
                                 </div>
                                 <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                                     <div class="footer-single-col">
-                                        <h3>Pages</h3>
+                                        <h3>Work Hours</h3>
                                         <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                            <li><a href="pricing.html" class="text-decoration-none">Pricing</a></li>
-                                            <li><a href="blog.html" class="text-decoration-none">Blog</a></li>
-                                            <li><a href="blog-single.html" class="text-decoration-none">Blog Details</a></li>
-                                            <li><a href="contact-us.html" class="text-decoration-none">Contact</a></li>
-                                            <li><a href="career-single.html" class="text-decoration-none">Career Single</a>
-                                            </li>
-                                            <li><a href="service-single.html" class="text-decoration-none">Services
-                                                    Single</a></li>
+                                            <li class="text-decoration-none">G.R.A NSUKKA, TOTAL RA.</li>
+                                            <li class="text-decoration-none">Tuesday - Saturday @ 9am-5pm</></li>
+                                         
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                                     <div class="footer-single-col">
-                                        <h3>Template</h3>
+                                        <h3>Do you know</h3>
                                         <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                            <li><a href="contact-us.html" class="text-decoration-none">Contact</a></li>
-                                            <li><a href="support.html" class="text-decoration-none">Support</a></li>
-                                            <li><a href="support-single.html" class="text-decoration-none">Support Single</a></li>
-                                            <li><a href="team.html" class="text-decoration-none">Our Team</a></li>
-                                            <li><a href="client-review.html" class="text-decoration-none">Customer Review</a></li>
-                                            <li><a href="career-single.html" class="text-decoration-none">Career Single</a>
-                                            </li>
+                                            <li>We are creative and smart with the solutions we provide. <br>Ever had that sophisticated yet easy to use digital tool?</li>
+                                          
                                         </ul>
                                     </div>
                                 </div>

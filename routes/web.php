@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\GetStartedController;
-use App\Http\Controllers\ContactUsController;
+use App\Http\Controllers\SiteController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,12 +19,17 @@ Route::get('/', function () {
 });
 
 //get started
-Route::get('/get-started', [GetStartedController::class, 'index']);
-Route::post('/get-started', [GetStartedController::class, 'send']);
-
-//contact us
-Route::get('/contact', [ContactUSController::class, 'index']);
-Route::post('/contact', [ContactUSController::class, 'send']);
+Route::get('/get-started', [SiteController::class, 'index']);
+Route::post('/get-started', [SiteController::class, 'send']);
 
 //Coming Soon
 Route::view('/coming-soon', 'coming-soon');
+
+//Login
+Route::view('/login', 'login');
+
+//News Letter
+Route::post('/news-letter', [SiteController::class, 'subscribe']);
+
+//Contact Us
+Route::post('/contact', [SiteController::class, 'contact']);

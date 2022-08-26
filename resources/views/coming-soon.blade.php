@@ -97,7 +97,8 @@
                             <p>We can help you to create your dream website for better business revenue.</p>
                         </div>
                         <div class="form-block-banner mw-60 m-auto">
-                            <form id="email-form2" name="email-form" class="subscribe-form d-flex">
+                            <form id="email-form2" name="email-form" class="subscribe-form d-flex" action="/news-letter" method="post">
+                                @csrf
                                 <input type="email" class="form-control me-2" name="Email" data-name="Email" placeholder="Your email" id="Email2" required="">
                                 <input type="submit" value="Subscribe!" data-wait="Please wait..." class="btn btn-primary">
                             </form>

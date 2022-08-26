@@ -49,7 +49,7 @@
                             <ul class="nav nav-pills mb-0 testimonial-tab-indicator mt-5" id="pills-tab" role="tablist">
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#testimonial-tab-1" type="button" role="tab" aria-selected="true">
-                                        <img src="assets/img/testimonial/1.jpg" alt="testimonial" width="55" class="img-fluid rounded-circle">
+                                        <img src="assets/img/testimonial/1.jpg" alt="testimonial" width="45" class="img-fluid rounded-circle">
                                     </button>
                                 </li>
                                 <li class="nav-item" role="presentation">

@@ -1,4 +1,12 @@
 
+@if(Session::has('message'))
+<script>
+swal("Great Job!", "{!! Session::get('message') !!}","success",{
+    button:"Ok",
+});
+</script>
+@endif
+
         <section class="hero-it-solution hero-nine-bg ptb-120" style="background: url('assets/img/hero-9-img.png')no-repeat center center" id="home">
             <div class="container">
                 <div class="row align-items-center">
@@ -35,3 +43,4 @@
                 </div>
             </div>
         </section>
+        
