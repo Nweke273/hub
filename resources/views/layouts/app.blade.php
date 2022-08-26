@@ -31,7 +31,7 @@
     <meta name="author" content="ThemeTags">
 
     <!--favicon icon-->
-    <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
+    {{-- <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16"> --}}
 
     <!--title-->
     <title>Smart Hub Software Solution Company</title>
@@ -99,7 +99,7 @@
             <!--offcanvas menu start-->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
                 <div class="offcanvas-header d-flex align-items-center mt-4">
-                    <a href="index.html" class="d-flex align-items-center mb-md-0 text-decoration-none">
+                    <a href="/" class="d-flex align-items-center mb-md-0 text-decoration-none">
                         <img src="assets/img/logo-color.png" alt="logo" class="img-fluid ps-2"/>
                     </a>
                     <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
@@ -107,265 +107,16 @@
                     </button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Home
-                            </a>
-                            <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                                <div class="dropdown-grid rounded-custom width-half">
-                                    <div class="dropdown-grid-item">
-                                        <h6 class="drop-heading">Different Home</h6>
-                                        <a href="index.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >1</span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">Saas Company 1</div>
-                                                <p>It's for <strong>SaaS Software</strong> Company</p>
-                                            </div>
-                                        </a>
-                                        <a href="index-2.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >2</span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">Saas Company 2</div>
-                                                <p>Modern <strong>Saas agency</strong></p>
-                                            </div>
-                                        </a>
-                                        <a href="index-3.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >3</span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">Desktop App</div>
-                                                <p><strong>Web Software</strong> Company</p>
-                                            </div>
-                                        </a>
-                                        <a href="index-4.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >4</span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">App Landing</div>
-                                                <p>App and <strong>Software</strong> Landing</p>
-                                            </div>
-                                        </a>
-                                        <a href="index-5.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >5</span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">Software Application</div>
-                                                <p>
-                                                    IT solutions and <strong>SaaS Application</strong>
-                                                </p>
-                                            </div>
-                                        </a>
-
-                                        <a href="index-6.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >6</span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">Startup Agency</div>
-                                                <p>Different type of <strong>Agency</strong>&lrm;</p>
-                                            </div>
-                                        </a>
-                                        <a href="index-7.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >7</span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">Data Analysis</div>
-                                                <p>Software & <strong>Data Analysis</strong>&lrm;</p>
-                                            </div>
-                                        </a>
-                                        <a href="index-8.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >8</span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">App Landing Two</div>
-                                                <p>Software & <strong>App Landing Two</strong>&lrm;</p>
-                                            </div>
-                                        </a>
-                                        <a href="index-9.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >9</span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">IT Solution</div>
-                                                <p>
-                                                    IT solutions and <strong>SaaS Application</strong>
-                                                </p>
-                                            </div>
-                                        </a>
-                                        <a href="index-10.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >10</span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">Cyber Security</div>
-                                                <p>Cyber Security <strong>Landing Page</strong></p>
-                                            </div>
-                                        </a>
-                                        <a href="index-11.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >
-                              11
-                            </span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">Crypto Currency</div>
-                                                <p><strong>Crypto Currency</strong> landing page</p>
-                                            </div>
-                                        </a>
-                                        <a href="index-12.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >
-                              12
-                            </span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">Game Solutions</div>
-                                                <p><strong>Game Server</strong> landing page</p>
-                                            </div>
-                                        </a>
-                                        <a href="index-13.html" class="dropdown-link">
-                                            <span
-                                class="demo-list bg-primary rounded text-white fw-bold"
-                            >
-                              13
-                            </span>
-                                            <div class="dropdown-info">
-                                                <div class="drop-title">Payment Gateway</div>
-                                                <p><strong>Payment Gateway</strong> landing page</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li><a href="#services" class="nav-link">Services</a></li>
-                        <li><a href="trainings" class="nav-link">Trainings</a></li>
-                        <li><a href="pricing.html" class="nav-link">Pricing</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
-                            <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                                <div class="dropdown-grid rounded-custom width-full">
-                                    <div class="dropdown-grid-item">
-                                        <h6 class="drop-heading">Useful Links</h6>
-                                        <a href="about-us.html" class="dropdown-link px-0">
-                                            <span class="me-2"
-                            ><i class="far fa-fingerprint"></i
-                            ></span>
-                                            <div class="drop-title">About Us</div>
-                                        </a>
-                                        <a href="contact-us.html" class="dropdown-link px-0">
-                                            <span class="me-2"
-                            ><i class="far fa-address-book"></i
-                            ></span>
-                                            <div class="drop-title">Contact Us</div>
-                                        </a>
-                                        <a href="services.html" class="dropdown-link">
-                                            <span class="me-2"
-                            ><i class="far fa-code-branch"></i
-                            ></span>
-                                            <div class="drop-title">Services</div>
-                                        </a>
-                                        <a href="service-single.html" class="dropdown-link px-0">
-                                            <span class="me-2"><i class="far fa-server"></i></span>
-                                            <div class="drop-title">Services Single</div>
-                                        </a>
-                                        <a href="blog.html" class="dropdown-link">
-                                            <span class="me-2"><i class="far fa-th-large"></i></span>
-                                            <div class="drop-title">Our Latest News</div>
-                                        </a>
-                                        <a href="blog-single.html" class="dropdown-link">
-                                            <span class="me-2"><i class="far fa-bars"></i></span>
-                                            <div class="drop-title">News Details</div>
-                                        </a>
-                                        <a href="career.html" class="dropdown-link px-0">
-                                            <span class="me-2"
-                            ><i class="far fa-graduation-cap"></i
-                            ></span>
-                                            <div class="drop-title">Career</div>
-                                        </a>
-                                        <a href="career-single.html" class="dropdown-link px-0">
-                                            <span class="me-2"
-                            ><i class="far fa-user-graduate"></i
-                            ></span>
-                                            <div class="drop-title">Career Single</div>
-                                        </a>
-                                        <a href="integrations.html" class="dropdown-link">
-                                            <span class="me-2"
-                            ><i class="far fa-rocket-launch"></i
-                            ></span>
-                                            <div class="drop-title">Integrations</div>
-                                        </a>
-                                        <a href="integration-single.html" class="dropdown-link px-0">
-                                            <span class="me-2"
-                            ><i class="far fa-paper-plane"></i
-                            ></span>
-                                            <div class="drop-title">Integration Single</div>
-                                        </a>
-                                    </div>
-                                    <div class="dropdown-grid-item radius-right-side bg-light">
-                                        <h6 class="drop-heading">Utility Pages</h6>
-                                        <a href="style-guide.html" class="dropdown-link">
-                                            <span class="me-2"
-                            ><i class="far fa-code-branch"></i
-                            ></span>
-                                            <div class="drop-title">Style Guide</div>
-                                        </a>
-                                        <a href="support.html" class="dropdown-link">
-                                            <span class="me-2"><i class="far fa-life-ring"></i></span>
-                                            <div class="drop-title">Help Center</div>
-                                        </a>
-                                        <a href="support-single.html" class="dropdown-link">
-                                            <span class="me-2"><i class="far fa-headset"></i></span>
-                                            <div class="drop-title">Help Details</div>
-                                        </a>
-                                        <a href="request-demo.html" class="dropdown-link">
-                                            <span class="me-2"
-                            ><i class="far fa-laptop-code"></i
-                            ></span>
-                                            <div class="drop-title">Ready for a project ?</div>
-                                        </a>
-                                        <a href="login.html" class="dropdown-link">
-                                            <span class="me-2"><i class="far fa-sign-in"></i></span>
-                                            <div class="drop-title">User Login</div>
-                                        </a>
-                                        <a href="register.html" class="dropdown-link">
-                                            <span class="me-2"><i class="far fa-user-plus"></i></span>
-                                            <div class="drop-title">User SignUp</div>
-                                        </a>
-                                        <a href="password-reset.html" class="dropdown-link">
-                                            <span class="me-2"
-                            ><i class="far fa-trash-undo"></i
-                            ></span>
-                                            <div class="drop-title">Recovery Account</div>
-                                        </a>
-                                        <a href="404.html" class="dropdown-link">
-                                            <span class="me-2"
-                            ><i class="far fa-exclamation-triangle"></i
-                            ></span>
-                                            <div class="drop-title">404 Page</div>
-                                        </a>
-                                        <a href="coming-soon.html" class="dropdown-link">
-                                            <span class="me-2"><i class="far fa-clock"></i></span>
-                                            <div class="drop-title">Coming Soon</div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                     <ul class="nav col-12 col-md-auto justify-content-center main-menu">
+                            <li><a href="/" class="nav-link">Home</a></li>
+                            <li><a href="/#services" class="nav-link">Services</a></li>
+                            <li><a href="/#trainings" class="nav-link">Trainings</a></li>
+                            <li><a href="/#whats-new" class="nav-link">What's New</a></li>
+                            <li><a href="/#contact" class="nav-link">Contact Us</a></li>
+                        </ul>
                     <div class="action-btns mt-4 ps-3">
-                        <a href="login.html" class="btn btn-outline-primary me-2">Sign In</a>
-                        <a href="request-demo.html" class="btn btn-primary">Get Started</a>
+                        <a href="/login" class="btn btn-outline-primary me-2">Sign In</a>
+                        <a href="/#get-started" class="btn btn-primary">Get Started</a>
                     </div>
                 </div>
             </div>

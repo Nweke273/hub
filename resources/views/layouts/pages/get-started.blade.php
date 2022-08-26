@@ -18,7 +18,7 @@
                                     </blockquote>
                                     <div class="author-info mt-3">
                                         <span class="h6">Veronica P. Byrd</span>
-                                        <span class="d-block small">Veterinary technician</span>
+                                        <span class="d-block small">Lorem Ipsum</span>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="testimonial-tab-2" role="tabpanel">

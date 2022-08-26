@@ -131,7 +131,7 @@
                                                 </li>
                                                 <li>
                                                     <i class="fas fa-check text-primary"></i>
-                                                    <span>Cryto Currency Websites</span>
+                                                    <span>Crypto Currency Websites</span>
                                                 </li>
                                                  <li>
                                                     <i class="fas fa-check text-primary"></i>
@@ -173,7 +173,7 @@
                                                 </li>
                                                 <li>
                                                     <i class="fas fa-check text-primary"></i>
-                                                    <span>Ctrypto Wallet Applications ETC.</span>
+                                                    <span>Crypto Wallet Applications ETC.</span>
                                                 </li>
                                             </ul>
                                             {{-- <a href="#" class="text-white link-with-icon text-decoration-none">
