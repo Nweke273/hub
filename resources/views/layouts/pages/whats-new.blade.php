@@ -73,7 +73,7 @@
                                             <img src="assets/img/portfolio/developer.jpg" alt="portfolio photo" class="img-fluid" style="height: 310px; width:620px;" />
                                             <div class="portfolio-info">
                                                 <h5>
-                                                    <a href="/coming-soon" class="text-decoration-none text-white">Information Architencure
+                                                    <a href="/contact" class="text-decoration-none text-white">Information Architencure
                                                     </a>
                                                 </h5>
                                                 <div class="categories">

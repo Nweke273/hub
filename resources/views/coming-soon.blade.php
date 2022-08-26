@@ -70,7 +70,7 @@
                 <div class="row">
                     <div class="col-lg-5 col-12">
                         <div class="coming-soon-content-wrap position-relative z-2">
-                            <a href="index.html" class="mb-5 d-block"><img src="assets/img/logo-white.png" alt="logo" class="img-fluid"></a>
+                            <a href="/" class="mb-5 d-block"><h4 class="text-white mb-3">Go Back</h4></a>
 
                             <h5 class="text-white">We are Coming Soon...</h5>
                             <h1 class="text-white">We are Working Our New Website, Please Stay With us!</h1>
@@ -97,7 +97,7 @@
                             <p>We can help you to create your dream website for better business revenue.</p>
                         </div>
                         <div class="form-block-banner mw-60 m-auto">
-                            <form id="email-form2" name="email-form" class="subscribe-form d-flex" action="/news-letter" method="post">
+                            <form id="email-form2" name="email-form" class="subscribe-form d-flex" action="/notify" method="post">
                                 @csrf
                                 <input type="email" class="form-control me-2" name="Email" data-name="Email" placeholder="Your email" id="Email2" required="">
                                 <input type="submit" value="Subscribe!" data-wait="Please wait..." class="btn btn-primary">

@@ -25,6 +25,10 @@ Route::post('/get-started', [SiteController::class, 'send']);
 //Coming Soon
 Route::view('/coming-soon', 'coming-soon');
 
+// Notify
+Route::post('/notify', [SiteController::class, 'notify']);
+
+
 //Login
 Route::view('/login', 'login');
 

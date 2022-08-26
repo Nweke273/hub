@@ -28,4 +28,9 @@ class SiteController extends Controller
         $request->session()->flash('message', 'Thanks for contacting us, we will get back to you shortly');
         return redirect('/');
     }
+    public function nofity(Request $request)
+    {
+        $request->session()->flash('message', 'Thanks. You will be notified once our project goes live');
+        return redirect('/');
+    }
 }

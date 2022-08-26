@@ -102,21 +102,28 @@
                     <a href="/" class="d-flex align-items-center mb-md-0 text-decoration-none">
                         <img src="assets/img/logo-color.png" alt="logo" class="img-fluid ps-2"/>
                     </a>
-                    <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">  <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
                         <i class="far fa-close"></i>
                     </button>
                 </div>
                 <div class="offcanvas-body">
                      <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-                            <li><a href="/" class="nav-link">Home</a></li>
-                            <li><a href="/#services" class="nav-link">Services</a></li>
-                            <li><a href="/#trainings" class="nav-link">Trainings</a></li>
-                            <li><a href="/#whats-new" class="nav-link">What's New</a></li>
-                            <li><a href="/#contact" class="nav-link">Contact Us</a></li>
+                            <li class="nav-link"><a href="/"><button class="border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close">Home
+                            </button></a></li>
+                            <li class="nav-link"><a href="/#services"><button class="border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close">Services
+                            </button></a></li>
+                             <li class="nav-link"><a href="/#trainings"><button class="border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close">Trainings
+                            </button></a></li>
+                             <li class="nav-link"><a href="/#whats-new"><button class="border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close">What's New
+                            </button></a></li>
+                             <li class="nav-link"><a href="/#contact"><button class="border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close">Contact Us
+                            </button></a></li>
                         </ul>
                     <div class="action-btns mt-4 ps-3">
                         <a href="/login" class="btn btn-outline-primary me-2">Sign In</a>
-                        <a href="/#get-started" class="btn btn-primary">Get Started</a>
+                         <button type="button" class="btn btn-primary" data-bs-dismiss="offcanvas" aria-label="Close">
+                           Get Started<a href="/#get-started"></a>
+                          </button>
                     </div>
                 </div>
             </div>
