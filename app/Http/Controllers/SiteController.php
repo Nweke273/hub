@@ -30,7 +30,7 @@ class SiteController extends Controller
     }
     public function notify(Request $request)
     {
-        $request->session()->flash('message', 'Thanks. You will be notified once our project goes live');
+        $request->session()->flash('message', 'Thanks. You will be notified whenever we lunch an App');
         return redirect('/');
     }
 }

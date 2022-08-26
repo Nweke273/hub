@@ -73,7 +73,7 @@
                             <a href="/" class="mb-5 d-block"><h4 class="text-white mb-3">Go Back</h4></a>
 
                             <h5 class="text-white">Internal Projects To Go Live Soon...</h5>
-                            <h1 class="text-white">Get notified when an App is lunched!</h1>
+                            <h1 class="text-white">Get notified whenever an App is lunched!</h1>
                             <div class="action-btns">
                                 <a href="#notify-form" class="btn btn-primary mt-5 popup-with-form">Notify Me!</a>
                             </div>
