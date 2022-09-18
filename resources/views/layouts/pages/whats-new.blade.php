@@ -57,8 +57,8 @@
                                                     </a>
                                                 </h5>
                                                 <div class="categories">
-                                                    <span>Branding,</span>
-                                                    <span>Logo</span>
+                                                    <span>Coming</span>
+                                                    <span>Soon</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -73,12 +73,12 @@
                                             <img src="assets/img/portfolio/developer.jpg" alt="portfolio photo" class="img-fluid" style="height: 310px; width:620px;" />
                                             <div class="portfolio-info">
                                                 <h5>
-                                                    <a href="/contact" class="text-decoration-none text-white">Information Architencure
+                                                    <a href="#contact" class="text-decoration-none text-white nav-link">Developer Needed
                                                     </a>
                                                 </h5>
                                                 <div class="categories">
-                                                    <span>Branding,</span>
-                                                    <span>Logo</span>
+                                                    <span>Apply</span>
+                                                    <span>Now</span>
                                                 </div>
                                             </div>
                                         </div>

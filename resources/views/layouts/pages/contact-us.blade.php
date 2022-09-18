@@ -51,7 +51,7 @@
                                     <strong>9am to 5pm EST.</strong>
                                 </p>
                             </div>
-                            <a href="tel:07067132390" class="btn btn-link mt-auto">07067132390</a>
+                            <a href="tel:+2347067132390" class="btn btn-link mt-auto">+2347067132390</a>
                         </div>
                     </div>
                      <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
