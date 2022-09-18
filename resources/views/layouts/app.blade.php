@@ -13,13 +13,13 @@
     <meta name="twitter:creator" content="@themetags">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Smart Gap Software Solution Company">
-    <meta name="twitter:description" content="Smart Hub Software Solution Company">
+    <meta name="twitter:description" content="Expert Hub Software Solution Company">
     <meta name="twitter:image" content="#">
 
     <!--facebook og-->
     <meta property="og:url" content="#">
     <meta name="twitter:title" content="Smart Gap Software Solution Company">
-    <meta property="og:description" content="Smart Hub Software Solution Company">
+    <meta property="og:description" content="Expert Hub Software Solution Company">
     <meta property="og:image" content="#">
     <meta property="og:image:secure_url" content="#">
     <meta property="og:image:type" content="image/png">
@@ -27,14 +27,14 @@
     <meta property="og:image:height" content="600">
 
     <!--meta-->
-    <meta name="description" content="Smart Hub Software Solution Company">
+    <meta name="description" content="Expert Hub Software Solution Company">
     <meta name="author" content="ThemeTags">
 
     <!--favicon icon-->
     {{-- <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16"> --}}
 
     <!--title-->
-    <title>Smart Hub Software Solution Company</title>
+    <title>Expert Hub Software Solution Company</title>
 
     <!--google fonts-->
     <!--<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">-->
@@ -145,7 +145,7 @@
                         <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
                             <div class="footer-single-col">
                                 <div class="footer-single-col mb-4">
-                                    <h4>SMART HUB</h4>
+                                    <h4>Expert Hub</h4>
                                     {{-- <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-white">
                                     <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color"> --}}
                                 </div>
@@ -217,7 +217,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-md-7 col-lg-7">
                             <div class="copyright-text">
-                                <p class="mb-lg-0 mb-md-0">Smart Hub... <a href="https://themetags.com/" class="text-decoration-none">We Bridge The Digital Gap</a></p>
+                                <p class="mb-lg-0 mb-md-0">Expert Hub... <a href="https://themetags.com/" class="text-decoration-none">We Bridge The Digital Gap</a></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">

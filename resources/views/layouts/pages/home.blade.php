@@ -17,7 +17,7 @@ swal("Great Job!", "{!! Session::get('message') !!}","success",{
                       @endif
                     <div class="col-lg-6 col-md-10">
                         <div class="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
-                            <h1 class="fw-bold display-5">Smart Hub Software Solution Company</h1>
+                            <h1 class="fw-bold display-5">Expert Hub Software Solution Company</h1>
                             <p class="lead">
                                Don't just dream it, make it a reality. <br>
                                We can help you bring your digital dream to life.

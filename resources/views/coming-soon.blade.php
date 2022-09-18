@@ -13,13 +13,13 @@
     <meta name="twitter:creator" content="@themetags">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Smart Gap Software Solution Company">
-    <meta name="twitter:description" content="Smart Hub Software Solution Company">
+    <meta name="twitter:description" content="Expert Hub Software Solution Company">
     <meta name="twitter:image" content="#">
 
     <!--facebook og-->
     <meta property="og:url" content="#">
     <meta name="twitter:title" content="Smart Gap Software Solution Company">
-    <meta property="og:description" content="Smart Hub Software Solution Company">
+    <meta property="og:description" content="Expert Hub Software Solution Company">
     <meta property="og:image" content="#">
     <meta property="og:image:secure_url" content="#">
     <meta property="og:image:type" content="image/png">
@@ -27,7 +27,7 @@
     <meta property="og:image:height" content="600">
 
     <!--meta-->
-    <meta name="description" content="Smart Hub Software Solution Company">
+    <meta name="description" content="Expert Hub Software Solution Company">
     <meta name="author" content="ThemeTags">
 
     <!--favicon icon-->
