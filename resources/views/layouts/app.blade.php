@@ -66,7 +66,7 @@
         <header class="main-header position-absolute w-100">
             <nav class="navbar navbar-expand-xl navbar-light sticky-header">
                 <div class="container d-flex align-items-center justify-content-lg-between position-relative">
-                    <a href="index.html" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+                    <a href="/" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
                         <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo-white" />
                         <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color"/>
                     </a>
@@ -91,7 +91,7 @@
                     </div>
 
                     <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-                        <a href="/login" class="btn btn-link text-decoration-none me-2">Sign In</a>
+                        <a style="display:none" href="/login" class="btn btn-link text-decoration-none me-2">Sign In</a>
                         <a href="#get-started" class="btn btn-primary">Get Started</a>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                             </button></a></li>
                         </ul>
                     <div class="action-btns mt-4 ps-3">
-                        <a href="/login" class="btn btn-outline-primary me-2">Sign In</a>
+                        <a style="display:none" href="/login" class="btn btn-outline-primary me-2">Sign In</a>
                          <button type="button" class="btn btn-primary" data-bs-dismiss="offcanvas" aria-label="Close">
                            Get Started<a href="/#get-started"></a>
                           </button>

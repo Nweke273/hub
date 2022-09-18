@@ -76,7 +76,7 @@
                 <div class="row justify-content-lg-between align-items-center">
                     <div class="col-lg-6 col-md-8">
                         <div class="section-heading">
-                            <h2>Talk to Our Sales & Marketing Department Team</h2>
+                            <h2>Talk to Our Sales & Marketing Team</h2>
                             <p>Collaboratively promote client-focused convergence vis-a-vis customer directed alignments via
                                 standardized infrastructures.</p>
                         </div>

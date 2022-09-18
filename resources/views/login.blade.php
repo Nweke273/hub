@@ -68,7 +68,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-5 col-md-8 col-12">
                         <h4 class="text-center">Expert Hub ADMINS</h4>
-                        {{-- <a href="index.html" class="mb-4 d-block text-center"><img src="assets/img/logo-color.png" alt="logo" class="img-fluid"></a> --}}
+                        {{-- <a href="/" class="mb-4 d-block text-center"><img src="assets/img/logo-color.png" alt="logo" class="img-fluid"></a> --}}
                         <div class="register-wrap p-5 bg-light shadow rounded-custom">
                             <h4 class="h3">This page is restricted to Admins</h4>
                             <p class="text-muted">You can reach us through the <strong>Get Started</strong> or <strong>Contact Us</strong> form in the guest area</p>

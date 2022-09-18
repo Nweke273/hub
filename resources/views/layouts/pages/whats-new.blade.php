@@ -53,7 +53,7 @@
                                             <img src="assets/img/portfolio/house-explorer.png" alt="portfolio photo" class="img-fluid" />
                                             <div class="portfolio-info">
                                                 <h5>
-                                                    <a href="/coming-soon" class="text-decoration-none text-white">Leafery Branding
+                                                    <a href="/coming-soon" class="text-decoration-none text-white">House Explorer
                                                     </a>
                                                 </h5>
                                                 <div class="categories">
