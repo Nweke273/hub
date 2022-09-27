@@ -31,7 +31,7 @@
     <meta name="author" content="ThemeTags">
 
     <!--favicon icon-->
-    {{-- <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16"> --}}
+    {{-- <link rel="icon" href="{{asset('assets/img/favicon.png')}}" type="image/png" sizes="16x16"> --}}
 
     <!--title-->
     <title>Expert Hub Software Solution Company</title>
@@ -40,11 +40,11 @@
     <!--<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">-->
 
     <!--build:css-->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
     <!-- endbuild -->
 
     <!--custom css start-->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
     <!--custom css end-->
 {{--Sweet Alert Cdn --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -55,7 +55,7 @@
     <!--preloader start-->
     <div id="preloader">
         <div class="preloader-wrap">
-            <img src="assets/img/favicon.png" alt="logo" class="img-fluid preloader-icon" />
+            <img src="{{asset('assets/img/favicon.png')}}" alt="logo" class="img-fluid preloader-icon" />
             <div class="loading-bar"></div>
         </div>
     </div>
@@ -67,8 +67,8 @@
             <nav class="navbar navbar-expand-xl navbar-light sticky-header">
                 <div class="container d-flex align-items-center justify-content-lg-between position-relative">
                     <a href="/" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
-                        <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo-white" />
-                        <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color"/>
+                        <img src="{{asset('assets/img/logo-white.png')}}" alt="logo" class="img-fluid logo-white" />
+                        <img src="{{asset('assets/img/logo-color.png')}}" alt="logo" class="img-fluid logo-color"/>
                     </a>
 
                     <a class="navbar-toggler position-absolute right-0 border-0" href="#offcanvasWithBackdrop" role="button">
@@ -100,7 +100,7 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
                 <div class="offcanvas-header d-flex align-items-center mt-4">
                     <a href="/" class="d-flex align-items-center mb-md-0 text-decoration-none">
-                        <img src="assets/img/logo-color.png" alt="logo" class="img-fluid ps-2"/>
+                        <img src="{{asset('assets/img/logo-color.png')}}" alt="logo" class="img-fluid ps-2"/>
                     </a>
                     <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">  <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
                         <i class="far fa-close"></i>
@@ -139,15 +139,16 @@
         <footer class="footer-section">
             <!--footer top start-->
             <!--for light footer add .footer-light class and for dark footer add .bg-dark .text-white class-->
-            <div class="footer-top  bg-gradient text-white ptb-120" style="background: url('assets/img/page-header-bg.svg')no-repeat bottom right">
+            
+            <div class="footer-top  bg-gradient text-white ptb-120" style="background: url({{ asset('assets/img/page-header-bg.svg')}})no-repeat bottom right">
                 <div class="container">
                     <div class="row justify-content-between">
                         <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
                             <div class="footer-single-col">
                                 <div class="footer-single-col mb-4">
                                     <h4>Expert Hub</h4>
-                                    {{-- <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-white">
-                                    <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color"> --}}
+                                    {{-- <img src="{{asset('assets/img/logo-color.png')}}" alt="logo" class="img-fluid logo-white">
+                                    <img src="{{asset('assets/img/logo-color.png')}}" alt="logo" class="img-fluid logo-color"> --}}
                                 </div>
                                 <p>Our latest news, articles, and resources, we will sent to
                                     your inbox weekly.</p>
@@ -240,13 +241,13 @@
     </div>
     
     <!--build:js-->
-    <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
-    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/vendors/parallax.min.js"></script>
-    <script src="assets/js/vendors/aos.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="{{asset('assets/js/vendors/jquery-3.6.0.min.js')}}"></script>
+    <script src="{{asset('assets/js/vendors/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('assets/js/vendors/swiper-bundle.min.js')}}"></script>
+    <script src="{{asset('assets/js/vendors/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('assets/js/vendors/parallax.min.js')}}"></script>
+    <script src="{{asset('assets/js/vendors/aos.js')}}"></script>
+    <script src="{{asset('assets/js/app.js')}}"></script>
     <!--endbuild-->
 </body>
 

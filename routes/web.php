@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SiteController;
+use App\Http\Controllers\ParticipantController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,3 +38,6 @@ Route::post('/news-letter', [SiteController::class, 'subscribe']);
 
 //Contact Us
 Route::post('/contact', [SiteController::class, 'contact']);
+
+//Event registration
+Route::get('/event/register',[ParticipantController::class, 'register']);
