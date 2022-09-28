@@ -74,22 +74,22 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="Name" aria-label="name">
+                                            <input type="text" class="form-control" placeholder="Name" aria-label="name" name="name">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 ">
                                         <div class="input-group mb-3">
-                                            <input type="email" class="form-control" placeholder="Email" aria-label="email">
+                                            <input type="email" class="form-control" placeholder="Email" aria-label="email" name="email">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="Company website" aria-label="company-website">
+                                            <input type="text" class="form-control" placeholder="Company website" aria-label="company-website" name="website">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="input-group mb-3">
-                                            <input type="email" class="form-control" placeholder="Work email" aria-label="work-Email">
+                                            <input type="email" class="form-control" placeholder="Work email" aria-label="work-Email" name="country">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
@@ -363,7 +363,7 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="input-group mb-3">
-                                            <textarea class="form-control" placeholder="Tell us more about your project, needs and budget" style="height: 120px"></textarea>
+                                            <textarea class="form-control" placeholder="Tell us more about your project, needs and budget" style="height: 120px" name="about"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-12">

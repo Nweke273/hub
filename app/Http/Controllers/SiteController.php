@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Order;
 use Illuminate\Http\Request;
 
 class SiteController extends Controller
@@ -12,7 +13,10 @@ class SiteController extends Controller
 
     public function send(Request $request)
     {
-
+            Order::create([
+            'order' => json_encode($request->all())
+            ]);
+            
             $request->session()->flash('message', 'Thanks for submitting your proposal. We wil get back to you soon');
             return redirect('/');
     }
