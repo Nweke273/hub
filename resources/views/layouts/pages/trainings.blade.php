@@ -21,7 +21,7 @@
                                       <h4 class="package-name d-block">₦13,000<span>/month</span></h4>
                                     </div>
                                     <div class="col-md-6">
-                                <h3 class="package-name text-primary d-block">Coperate</h3>
+                                <h3 class="package-name text-primary d-block">Corporate</h3>
                                 <h4 class="package-name d-block">₦8,000<span>/month</span></h4>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@
                                     </div>
                                     <div class="col-md-6">
 
-                                       <h3 class="package-name text-warning d-block">Coperate</h3>
+                                       <h3 class="package-name text-warning d-block">Corporate</h3>
                                        <h4 class="package-name d-block">₦15,000<span>/month</span></h4>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@
                                        <h4 class="package-name d-block">₦15,000<span>/month</span></h4>
                                     </div>
                                     <div class="col-md-6">
-                                     <h3 class="package-name text-primary d-block">Coperate</h3>
+                                     <h3 class="package-name text-primary d-block">Corporate</h3>
                                      <h4 class="package-name d-block">₦12,000<span>/month</span></h4>
                                     </div>
                                 </div>
@@ -107,22 +107,22 @@
                                         <div class="col-md-6">
                                     <li>
                                         <i class="far fa-check-circle text-success me-2"></i>
-                                        Lorem ipsum
+                                        PhotoShop
                                     </li>
                                     <li>
                                         <i class="far fa-check-circle text-success me-2"></i>
-                                        Lorem ipsum
+                                        Corel Draw
                                     </li>
                                         </div>
                                         <div class="col-md-6">
                                             
                                     <li>
                                         <i class="far fa-check-circle text-success me-2"></i>
-                                       Lorem ipsum
+                                       Wordpress
                                     </li>
                                     <li>
                                         <i class="far fa-check-circle text-success me-2"></i> 
-                                        Lorem ipsum
+                                        SEO
                                     </li>
                                         </div>
                                     </div>

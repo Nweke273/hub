@@ -47,7 +47,7 @@
                                 </li>
                                 <li class="py-1">
                                     <i class="fad fa-check-circle me-2 text-primary"></i>
-                                   If the passion isn't there, the drive won't be there thus, no Smart Hub.
+                                   If the passion isn't there, the drive won't be there thus, no Expert Hub.
                                 </li>
                             </ul>
                             {{-- <a href="#" class="link-with-icon text-decoration-none mt-3 btn btn-primary">

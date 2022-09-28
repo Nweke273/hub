@@ -13,13 +13,13 @@
     <meta name="twitter:creator" content="@themetags">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Smart Gap Software Solution Company">
-    <meta name="twitter:description" content="Smart Hub Software Solution Company">
+    <meta name="twitter:description" content="Expert Hub Software Solution Company">
     <meta name="twitter:image" content="#">
 
     <!--facebook og-->
     <meta property="og:url" content="#">
     <meta name="twitter:title" content="Smart Gap Software Solution Company">
-    <meta property="og:description" content="Smart Hub Software Solution Company">
+    <meta property="og:description" content="Expert Hub Software Solution Company">
     <meta property="og:image" content="#">
     <meta property="og:image:secure_url" content="#">
     <meta property="og:image:type" content="image/png">
@@ -27,7 +27,7 @@
     <meta property="og:image:height" content="600">
 
     <!--meta-->
-    <meta name="description" content="Smart Hub Software Solution Company">
+    <meta name="description" content="Expert Hub Software Solution Company">
     <meta name="author" content="ThemeTags">
 
     <!--favicon icon-->
@@ -67,8 +67,8 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-5 col-md-8 col-12">
-                        <h4 class="text-center">SMART HUB ADMINS</h4>
-                        {{-- <a href="index.html" class="mb-4 d-block text-center"><img src="assets/img/logo-color.png" alt="logo" class="img-fluid"></a> --}}
+                        <h4 class="text-center">Expert Hub ADMINS</h4>
+                        {{-- <a href="/" class="mb-4 d-block text-center"><img src="assets/img/logo-color.png" alt="logo" class="img-fluid"></a> --}}
                         <div class="register-wrap p-5 bg-light shadow rounded-custom">
                             <h4 class="h3">This page is restricted to Admins</h4>
                             <p class="text-muted">You can reach us through the <strong>Get Started</strong> or <strong>Contact Us</strong> form in the guest area</p>
