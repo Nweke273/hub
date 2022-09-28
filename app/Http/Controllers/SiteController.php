@@ -16,7 +16,7 @@ class SiteController extends Controller
             Order::create([
             'order' => json_encode($request->all())
             ]);
-            
+            dd(Order::all());
             $request->session()->flash('message', 'Thanks for submitting your proposal. We wil get back to you soon');
             return redirect('/');
     }
