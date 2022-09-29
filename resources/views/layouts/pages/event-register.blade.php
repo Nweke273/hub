@@ -50,16 +50,17 @@
                              </div>
                              <div class="col-sm-12">
                                  <label for="category" class="mb-1">Select Category <span class="text-danger">*</span></label>
-                                 <select name="event_id" id="event" class="form-select mb-3">
-                                     @forelse($events as $key=>$event)
+                                 <select name="category" id="event" class="form-select mb-3">
+                                    
+                                    <option value="none" selected disabled>Select game</option>
                                      <option value="Snooker">Snooker</option>
-                                     <option value="Table Tennit">{{$event}}</option>
-                                     <option value="{{$key}}">{{$event}}</option>
-                                     <option value="{{$key}}">{{$event}}</option>
-                                     <option value="{{$key}}">{{$event}}</option>
-                                     <option value="{{$key}}">{{$event}}</option>
-                                     @empty
-                                     @endforelse
+                                     <option value="Table Tennis">Table Tennis</option>
+                                     <option value="Chess">Chess</option>
+                                     <option value="Whot">Whot</option>
+                                     <option value="Ludo">Ludo</option>
+                                     <option value="Pro Evolution Soccer">Pro Evolution Soccer</option>
+
+                                     
                                  </select>
                              </div>
                              <div class="col-sm-12">

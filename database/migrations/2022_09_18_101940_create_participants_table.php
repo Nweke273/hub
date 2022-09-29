@@ -16,9 +16,10 @@ class CreateParticipantsTable extends Migration
         Schema::create('participants', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->foreignId('event_id');
-            $table->string('phone_number', 15);
+            $table->foreignId('event_id')->nullable();
+            $table->string('phone_number');
             $table->string('email_address');
+            $table->string('category');
             $table->string('status');
             $table->string('payment_reference');
             $table->timestamps();

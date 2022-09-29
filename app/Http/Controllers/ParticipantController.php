@@ -41,11 +41,11 @@ class ParticipantController extends Controller
             $request,
             [
                 'name' => 'required',
-                'event_id' => 'required',
                 'payment_reference' => 'required',
                 'phone_number' => 'required:number'
             ]
         );
+        
         $data = $request->all();
         unset($data['__token']);
         $data['status'] = "unverified";
