@@ -87,6 +87,7 @@
                             <li><a href="/#trainings" class="nav-link">Trainings</a></li>
                             <li><a href="/#whats-new" class="nav-link">What's New</a></li>
                             <li><a href="/#contact" class="nav-link">Contact Us</a></li>
+                            <li><a href="/event/register" class="nav-link">Register Event</a></li>
                         </ul>
                     </div>
 
@@ -117,6 +118,7 @@
                              <li class="nav-link"><a href="/#whats-new"><button class="border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close">What's New
                             </button></a></li>
                              <li class="nav-link"><a href="/#contact"><button class="border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close">Contact Us
+                             <li class="nav-link"><a href="/event/register"><button class="border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close">Event Registration
                             </button></a></li>
                         </ul>
                     <div class="action-btns mt-4 ps-3">

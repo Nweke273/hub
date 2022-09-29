@@ -51,7 +51,7 @@ class ParticipantController extends Controller
         $data['status'] = "unverified";
         Participant::create($data);
 
-        return back()->with('success', 'Participant registered successfully!');
+        return redirect('/event/participants')->with('success', 'Participant registered successfully!');
     }
 
     /**

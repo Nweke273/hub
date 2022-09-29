@@ -18,6 +18,7 @@ use App\Http\Controllers\ParticipantController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::view('/event/participants', 'participant');
 
 //get started
 Route::get('/get-started', [SiteController::class, 'index']);
