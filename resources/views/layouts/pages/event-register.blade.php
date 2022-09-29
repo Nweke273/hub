@@ -9,7 +9,8 @@
                              <h4>Please make the payment to the account number provided and fill in the following form</h4>
                          </div>
                          <div class="form-block-banner mw-60 m-auto mt-5" data-aos="fade-up" data-aos-delay="50">
-                             <a href="#contact-form" class="btn btn-primary">Register for Event</a>
+                             <a href="/event/register#contact-form" class="btn btn-primary">Register for Event</a>
+                             <a href="/event/participants" class="btn btn-warning">Check Participant List</a>
                          </div>
                          <ul class="nav justify-content-center subscribe-feature-list mt-4" data-aos="fade-up" data-aos-delay="100">
                              <li class="nav-item">
