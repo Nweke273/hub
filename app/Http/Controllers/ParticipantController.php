@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Event;
 use App\Models\Participant;
 use Illuminate\Http\Request;
+use Symfony\Contracts\Service\Attribute\Required;
 
 class ParticipantController extends Controller
 {
@@ -36,7 +37,21 @@ class ParticipantController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate(
+            $request,
+            [
+                'name' => 'required',
+                'event_id' => 'required',
+                'payment_reference' => 'required',
+                'phone_number' => 'required:number'
+            ]
+        );
+        $data = $request->all();
+        unset($data['__token']);
+        $data['status'] = "unverified";
+        Participant::create($data);
+
+        return back()->with('success', 'Participant registered successfully!');
     }
 
     /**
@@ -84,7 +99,8 @@ class ParticipantController extends Controller
         //
     }
 
-    public function register(){
+    public function register()
+    {
         $events = Event::all()->pluck("name", "id");
         return view('event-registration', compact(['events']));
     }

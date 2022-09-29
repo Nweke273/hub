@@ -25,6 +25,7 @@
              <div class="bg-circle rounded-circle circle-shape-1 position-absolute bg-warning right-5"></div>
          </div>
      </section>
+     @include('layouts.alert')
 
 
      <section class="contact-us-form pt-60 pb-120" style="background: url('assets/img/shape/contact-us-bg.svg')no-repeat center bottom" id="contact-form">
@@ -40,8 +41,22 @@
 
                              <div class="col-sm-12">
                                  <label for="event" class="mb-1">Select Event <span class="text-danger">*</span></label>
-                                 <select name="event" id="event" class="form-select mb-3">
+                                 <select name="event_id" id="event" class="form-select mb-3">
                                      @forelse($events as $key=>$event)
+                                     <option value="{{$key}}">{{$event}}</option>
+                                     @empty
+                                     @endforelse
+                                 </select>
+                             </div>
+                             <div class="col-sm-12">
+                                 <label for="category" class="mb-1">Select Category <span class="text-danger">*</span></label>
+                                 <select name="event_id" id="event" class="form-select mb-3">
+                                     @forelse($events as $key=>$event)
+                                     <option value="Snooker">Snooker</option>
+                                     <option value="Table Tennit">{{$event}}</option>
+                                     <option value="{{$key}}">{{$event}}</option>
+                                     <option value="{{$key}}">{{$event}}</option>
+                                     <option value="{{$key}}">{{$event}}</option>
                                      <option value="{{$key}}">{{$event}}</option>
                                      @empty
                                      @endforelse
@@ -50,25 +65,25 @@
                              <div class="col-sm-12">
                                  <label for="name" class="mb-1">Name <span class="text-danger">*</span></label>
                                  <div class="input-group mb-3">
-                                     <input type="text" class="form-control" id="name" required placeholder="Name" aria-label="Name">
+                                     <input type="text" class="form-control" id="name" name="name" required placeholder="Name" aria-label="Name">
                                  </div>
                              </div>
                              <div class="col-sm-6">
                                  <label for="phone" class="mb-1">Phone <span class="text-danger">*</span></label>
                                  <div class="input-group mb-3">
-                                     <input type="text" class="form-control" id="phone" required placeholder="Phone" aria-label="Phone">
+                                     <input type="text" class="form-control" id="phone" name="phone_number" required placeholder="Phone" aria-label="Phone">
                                  </div>
                              </div>
                              <div class="col-sm-6">
                                  <label for="email" class="mb-1">Email<span class="text-danger">*</span></label>
                                  <div class="input-group mb-3">
-                                     <input type="email" class="form-control" id="email" required placeholder="Email" aria-label="Email">
+                                     <input type="email" class="form-control" id="email" name="email_address" required placeholder="Email" aria-label="Email">
                                  </div>
                              </div>
                              <div class="col-12">
                                  <label for="yourMessage" class="mb-1">Payment Reference <span class="text-danger">*</span></label>
                                  <div class="input-group mb-3">
-                                     <input class="form-control" id="payment_reference" required placeholder="Type some information we can use to recognize your transaction" style="height: 120px"></textarea>
+                                     <input class="form-control" id="payment_reference" name="payment_reference" required placeholder="Type some information we can use to recognize your transaction" style="height: 120px"></textarea>
                                  </div>
                              </div>
                          </div>

@@ -41,3 +41,4 @@ Route::post('/contact', [SiteController::class, 'contact']);
 
 //Event registration
 Route::get('/event/register',[ParticipantController::class, 'register']);
+Route::post('/event/register',[ParticipantController::class, 'store']);
