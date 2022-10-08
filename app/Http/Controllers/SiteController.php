@@ -23,9 +23,6 @@ class SiteController extends Controller
                     'Authorization' => 'Bearer 9112882d8417477d99176ac7eeb5e0bc',
                 ],
                 'body' => json_encode([
-
-
-                    "store_id" => "948f7a3b-3ebf-4bdc-8a42-9305ebd610c8",
                     "order" => "ORDER-103885",
                     "customer_id" => str::uuid("34228379"),
                     "source" => "My app",
