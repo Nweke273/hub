@@ -25,7 +25,7 @@ class SiteController extends Controller
                 'body' => json_encode([
                     "store_id" => "bad5bdb7-9589-460c-aee6-6793211d9df5",
                     "order" => "ORDER-103885",
-                    "customer_id" => str::uuid("34567473"),
+                    "customer_id" => "34567473",
                     "source" => "My app",
                     "receipt_date" => "2020-06-23T08:35:47.047Z",
                     "total_discounts" => [
