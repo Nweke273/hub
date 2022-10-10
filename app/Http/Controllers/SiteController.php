@@ -28,7 +28,7 @@ class SiteController extends Controller
                 'body' => json_encode([
              
                     "name" => "Nweke",
-                    "email" => "chisom{$now}@gmail.com",
+                    "email" => "chisom$now@gmail.com",
                     "phone_number" => "2349065851596",
                     "address" => "No address",
                     "city" => "string",
