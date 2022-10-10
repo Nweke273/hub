@@ -17,7 +17,7 @@ use App\Http\Controllers\SiteController;
 */
 
 Route::post('/get-started', [SiteController::class, 'send']);
-Route::post('/get-started2', [SiteController::class, 'recieve']);
+Route::get('/get-started2', [SiteController::class, 'recieve']);
 
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
