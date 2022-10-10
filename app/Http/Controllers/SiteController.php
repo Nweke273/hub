@@ -39,7 +39,10 @@ class SiteController extends Controller
 
                 ])
             ]);
-            dd($response);
+            $order = Order::create([
+                'order' => $response
+            ]);
+            dd($order);
         } catch (\Throwable $th) {
             dd($th);
         }
