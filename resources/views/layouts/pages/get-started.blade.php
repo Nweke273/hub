@@ -69,7 +69,7 @@
                         <div class="register-wrap p-5 bg-white shadow rounded-custom mt-5 mt-lg-0 mt-xl-0">
                             <h3 class="fw-medium h4">Fill out the form and we'll be in touch as soon as possible.</h3>
 
-                            <form action="/api/get-started" class="mt-4 register-form" method="POST">
+                            <form action="/api/get-started2" class="mt-4 register-form" method="POST">
                                 @csrf
                                 <div class="row">
                                     <div class="col-sm-6">

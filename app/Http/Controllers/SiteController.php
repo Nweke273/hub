@@ -26,7 +26,7 @@ class SiteController extends Controller
                 'body' => json_encode([
              
                     "name" => "Nweke",
-                    "email" => "nweke1676@gmail.com",
+                    "email" => "nweke16@gmail.com",
                     "phone_number" => "2349065851596",
                     "address" => "No address",
                     "city" => "string",
@@ -49,6 +49,9 @@ class SiteController extends Controller
 
     }
 
+    public function recieve(){
+        dd(Order::all());
+    }
     public function subscribe(Request $request)
     {
         $request->session()->flash('message', 'You have succesfully subscribed to our news letter');
