@@ -40,7 +40,7 @@ class SiteController extends Controller
                 ])
             ]);
              Order::create([
-                'order' => $response
+                'order' => json_encode($response) 
             ]);
             
         } catch (\Throwable $th) {
