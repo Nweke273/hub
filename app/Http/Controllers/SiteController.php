@@ -17,6 +17,7 @@ class SiteController extends Controller
     public function send(Request $request)
     {
         $now = Carbon::now()->toTimeString();
+         dd("chisom$now@gmail.com");
         try {
             $client = new \GuzzleHttp\Client();
             $url = 'https://api.loyverse.com/v1.0/customers';
@@ -44,7 +45,7 @@ class SiteController extends Controller
              Order::create([
                 'order' => json_encode($response) 
             ]);
-            
+           
         } catch (\Throwable $th) {
             dd($th);
         }
