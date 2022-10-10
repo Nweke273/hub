@@ -33,9 +33,9 @@ class SiteController extends Controller
                     "region" => "string",
                     "postal_code" => "string",
                     "country_code" => "NG",
-                    "customer_code" => "string",
-                    "note" => "string",
-                    "total_points" => 0
+                    "customer_code" => "0087",
+                    "note" => "no note",
+                    "total_points" => 3
 
                 ])
             ]);
