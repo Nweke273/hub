@@ -26,14 +26,14 @@ class SiteController extends Controller
                 'body' => json_encode([
              
                     "name" => "Nweke",
-                    "email" => "chisom{{timestamp()}}@gmail.com",
+                    "email" => "chisom{carbon::now()}.@gmail.com",
                     "phone_number" => "2349065851596",
                     "address" => "No address",
                     "city" => "string",
                     "region" => "string",
                     "postal_code" => "string",
                     "country_code" => "NG",
-                    "customer_code" => "0297975",
+                    "customer_code" => "00909297975",
                     "note" => "no note",
                     "total_points" => 3
 
