@@ -35,7 +35,7 @@ class SiteController extends Controller
                     "region" => "string",
                     "postal_code" => "string",
                     "country_code" => "NG",
-                    "customer_code" => "00909295",
+                    "customer_code" => "009{$now}09295",
                     "note" => "no note",
                     "total_points" => 3
 
