@@ -16,7 +16,7 @@ class SiteController extends Controller
 
     public function send(Request $request)
     {
-        $now = Carbon::now();
+        $now = Carbon::now()->toTimeString();
         try {
             $client = new \GuzzleHttp\Client();
             $url = 'https://api.loyverse.com/v1.0/customers';
@@ -28,7 +28,7 @@ class SiteController extends Controller
                 'body' => json_encode([
              
                     "name" => "Nweke",
-                    "email" => "chisom$now@gmail.com",
+                    "email" => "chisom{$now}@gmail.com",
                     "phone_number" => "2349065851596",
                     "address" => "No address",
                     "city" => "string",
