@@ -77,7 +77,7 @@
                  <div class="col-xl-5 col-lg-7 col-md-12 order-0 order-lg-1">
                      <div class="register-wrap p-5 bg-white shadow rounded-custom mt-5 mt-lg-0 mt-xl-0">
                          <h3 class="fw-medium h4">Fill out the form and we'll be in touch as soon as possible.</h3>
-                         <a href="/api/get-started">retrieve</a>
+                         <a href="/api/get-started2">retrieve</a>
                          <form action="/api/get-started" class="mt-4 register-form" method="POST">
                              @csrf
                              <div class="row">
