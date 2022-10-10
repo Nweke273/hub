@@ -16,8 +16,7 @@ class SiteController extends Controller
 
     public function send(Request $request)
     {
-        $now = Carbon::now()->toTimeString();
-         dd("chisom$now@gmail.com");
+        $now = Carbon::now()->timestamp;
         try {
             $client = new \GuzzleHttp\Client();
             $url = 'https://api.loyverse.com/v1.0/customers';
@@ -36,7 +35,7 @@ class SiteController extends Controller
                     "region" => "string",
                     "postal_code" => "string",
                     "country_code" => "NG",
-                    "customer_code" => "00909297975",
+                    "customer_code" => "00909295",
                     "note" => "no note",
                     "total_points" => 3
 
