@@ -26,22 +26,24 @@ class SiteController extends Controller
                 'body' => json_encode([
              
                     "name" => "Nweke",
-                    "email" => "chisom1676@gmail.com",
+                    "email" => "nweke1676@gmail.com",
                     "phone_number" => "2349065851596",
                     "address" => "No address",
                     "city" => "string",
                     "region" => "string",
                     "postal_code" => "string",
                     "country_code" => "NG",
-                    "customer_code" => "0087",
+                    "customer_code" => "07775",
                     "note" => "no note",
                     "total_points" => 3
 
                 ])
             ]);
+            dd($response);
         } catch (\Throwable $th) {
             dd($th);
         }
+
     }
 
     public function subscribe(Request $request)
