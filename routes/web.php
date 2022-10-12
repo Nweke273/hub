@@ -18,7 +18,6 @@ use App\Http\Controllers\ParticipantController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::view('/event/participants', 'participant');
 
 //get started
 Route::get('/get-started', [SiteController::class, 'index']);
@@ -43,3 +42,6 @@ Route::post('/contact', [SiteController::class, 'contact']);
 //Event registration
 Route::get('/event/register',[ParticipantController::class, 'register']);
 Route::post('/event/register',[ParticipantController::class, 'store']);
+
+//event check
+Route::view('/event/participants', 'participant');

@@ -94,7 +94,7 @@
                  </div>
                  <div class="col-lg-5 col-md-10">
                      <div class="contact-us-img">
-                         <img src="{{asset('assets/img/contact-us-img-2.svg')}}" alt="contact us" class="img-fluid">
+                         <img src="{{asset('assets/img/oct1.png')}}" alt="1st October Competition" class="img-fluid">
                      </div>
                  </div>
              </div>
