@@ -1,7 +1,5 @@
-@extends('layouts.app')
-@section('content')
+<x-landing-layout>
 
 {{-- Register Event --}}
 @include('layouts.pages.event-register')
-
-@endsection
+</x-landing-layout>
