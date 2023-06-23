@@ -86,7 +86,15 @@
                         <ul class="nav col-12 col-md-auto justify-content-center main-menu">
                             <li><a href="/" class="nav-link">Home</a></li>
                             <li><a href="/#services" class="nav-link">Services</a></li>
-                            <li><a href="/#trainings" class="nav-link">Trainings</a></li>
+
+                            <div class="dropdown">
+                               <a class="nav-link text-blue dropdown-toggle"role="button" id="dropdownMenuLink" 
+                               data-bs-toggle="dropdown" aria-expanded="false">Trainings</a>
+                                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                     <li><a class="dropdown-item nave-link"  href="/#trainings" >Major Programmes</a></li>
+                                     <li><a class="dropdown-item nave-link" href="{{route('bootcamp.reg')}}">Bootcamp</a></li>
+                                   </ul>
+                                 </div>
                             <li><a href="/#whats-new" class="nav-link">What's New</a></li>
                             <li><a href="/#contact" class="nav-link">Contact Us</a></li>
                         </ul>

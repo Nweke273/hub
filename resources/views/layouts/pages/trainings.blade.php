@@ -10,6 +10,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
@@ -37,6 +38,7 @@
                             <a href="#get-started" class="btn btn-outline-primary mt-2">Get Started Now</a>
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-6">
                         <div class="position-relative single-pricing-wrap rounded-custom bg-gradient text-white p-5 mb-4 mb-lg-0">
                             <div class="pricing-header mb-32">
@@ -86,6 +88,10 @@
                             <a href="#get-started" class="btn btn-primary mt-2">Get Started Now</a>
                         </div>
                     </div>
+
+
+                   
+
                     <div class="col-lg-4 col-md-6">
                         <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
                             <div class="pricing-header mb-32">
@@ -101,6 +107,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="pricing-info mb-4">
                                 <ul class="pricing-feature-list list-unstyled">
                                     <div class="row">
