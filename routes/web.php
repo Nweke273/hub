@@ -1,8 +1,11 @@
 <?php
 
+use App\Http\Controllers\BootcampController;
 use App\Http\Controllers\SiteController;
 use App\Http\Controllers\ParticipantController;
 use App\Http\Controllers\ProfileController;
+use App\Models\Training;
+use App\Models\Training as ModelsTraining;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -53,4 +56,27 @@ Route::post('/contact', [SiteController::class, 'contact']);
 //Event registration
 Route::get('/event/register',[ParticipantController::class, 'register']);
 
+//Bootcamp
+Route::get('/bootcamp/register', [BootcampController::class, 'index']);
+Route::post('/apply', [BootcampController::class, 'apply']);
+
+//Schedule bootcamp interview for students
+// Route::get('/bootcampInterviewMail', function () {return view('bootcampInterviewMail');})->name('home');
+// Route::post('/send-mail', 'YourControllerName@bootcampInterviewMail')->name('sendMail');
+
+Route::get('/bootcampInterviewSendMail', [BootcampController::class, 'bootcampInterviewMailHome']);
+
+
+
+
+Route::post('/send-mail', [BootcampController::class, 'bootcampInterviewMail'])->name('sendMail');
+
+
+
+
+
+
+
+
 require __DIR__.'/auth.php';
+

@@ -89,6 +89,7 @@
                             <li><a href="/#trainings" class="nav-link">Trainings</a></li>
                             <li><a href="/#whats-new" class="nav-link">What's New</a></li>
                             <li><a href="/#contact" class="nav-link">Contact Us</a></li>
+                            <li><a href="/bootcamp/register" class="nav-link">Bootcamp</a></li>
                         </ul>
                     </div>
 

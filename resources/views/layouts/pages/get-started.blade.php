@@ -1,4 +1,4 @@
- <section class="sign-up-in-section bg-dark ptb-120"
+<section class="sign-up-in-section bg-dark ptb-120"
      style="background: url('assets/img/page-header-bg.svg')no-repeat bottom right" id="get-started">
      <div class="container">
          <h2 class="fw-bold text-white text-center display-5">Bring Your Projects</h1>
@@ -406,3 +406,13 @@
              </div>
      </div>
  </section>
+
+
+
+
+
+
+
+
+
+
