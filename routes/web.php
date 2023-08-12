@@ -65,12 +65,11 @@ Route::post('/apply', [BootcampController::class, 'apply']);
 // Route::post('/send-mail', 'YourControllerName@bootcampInterviewMail')->name('sendMail');
 
 Route::get('/bootcampInterviewSendMail', [BootcampController::class, 'bootcampInterviewMailHome']);
-
-
-
-
 Route::post('/send-mail', [BootcampController::class, 'bootcampInterviewMail'])->name('sendMail');
 
+//Bootcamp ongratulatory mail
+Route::get('/bootcamp/interview/congratulatory/Mail/button', [BootcampController::class, 'bootcampCongratulatoryMailButtonHome']);
+Route::post('/send/bootcamp/interview/congratulatory/mail', [BootcampController::class, 'bootcampCongratulatoryMail'])->name('sendMail');
 
 
 
